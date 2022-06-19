@@ -1,0 +1,53 @@
+body {
+    background-color: #2f4858;
+    font-family:serif;
+}
+
+.pizza {
+    border : 5px solid #AE2012;
+    padding : 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    width: 20em;
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+.Medium {
+    
+    background-color:#33658a;
+    flex:2;
+    
+}
+
+.Large {
+    
+   /* box model*/
+    background-color: #86bbd8;
+    flex:3;
+    
+}
+
+.Small {
+
+    /* box model*/
+    background-color: #f6ae2d;
+    flex:1;
+
+}
+
+
+.contacts{
+    
+     /* box model*/
+     background-color: gray;
+}
+
+@media (min-width:850px){
+    body{
+        background-color:hotpink;
+    }
+    .pizzas{
+        display: flex;
+    }
+}
